@@ -1,0 +1,62 @@
+.footer {
+    background: #333;
+    color: white;
+}
+
+.footer .row {
+    padding-top: 30px;
+}
+
+.footer a:hover {
+    color: #00a0e3;
+    transition: 0.3s
+}
+
+.footer__links__title {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.footer__phone a {
+    color: #fff;
+    border-bottom: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+}
+
+.footer__mail a {
+    color: #fff;
+}
+
+.footer__phone .hd__phone {
+    color: #fff;
+}
+
+.bottom-under {
+    border-color: #555;
+}
+
+.bottom-under {
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.bottom-under .inner-wrapper {
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 30px;
+}
+
+.bottom-under .inner-wrapper {
+    padding: 24px 0 20px;
+    margin: 20px 0 0;
+}
+
+.bottom-under .inner-wrapper .copy-block {
+    padding: 0;
+    margin: -5px 0 0;
+}
+

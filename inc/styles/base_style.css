@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Involve-Regular";  
+    src: url(".inc/font/Involve-Regular.ttf"); 
+    font-style: normal; 
+    font-weight: normal;
+ }
+
+ *, :after, :before {
+    box-sizing: inherit;
+ }
+
+body {
+    font-family: Involve-Regular;
+    line-height: 1.8;
+    font-size: 16px;
+    margin: 0;
+    color: #2d2c2c;
+    font-weight: 500;
+    background-color: #fff;
+    min-width: 320px;
+}
+
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.text_top {
+    text-align: center
+}
+    
+body, div, h1, h2, h3, li, table, td, tr {
+    position: relative;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h4 {
+    font-size: 1.33em;
+    line-height: 20px;
+    margin: 40px 0 26px;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #8f8d8d;
+    text-decoration: none;
+    outline: 0;
+}
+
+ol, ul {
+    margin: 22px 0;
+    padding-left: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1350px;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    width: 100%;
+}

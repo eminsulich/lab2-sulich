@@ -1,0 +1,32 @@
+
+.bc {
+    color: #000;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.bc__link {
+    border: none;
+}
+
+.bc .bc__sep {
+    margin: 3px 10px 0 11px;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin: 35px 0 45px;
+}
+
+
+.region-top {
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+

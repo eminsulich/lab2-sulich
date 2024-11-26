@@ -1,0 +1,19 @@
+@media only screen and (max-width: 767px) {
+    .footer__top {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer__top .footer__links {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer__links__client, .blog, .footer__contacts {
+       display: none;
+    }
+}
