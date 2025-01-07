@@ -383,10 +383,22 @@ body .wrapper_inner.wide_page .info_item .middle_info {
     margin-left: 10px;
 }
 
-.middle_info .btn {
+.btn .btn-outline-primary:hover{
     background-color: #00a0e3;
-    border-color: #00a0e3;
     color: #ffffff;
+    transition: 0.7s all;
+    cursor: pointer;
+}
+
+.btn .btn-outline-primary a:hover{
+    color:#eaeaea;
+    transition: 0.6s all;
+    cursor: pointer;
+}
+
+.info_item {
+    display: flex;
+    flex-direction: column;
 }
 
 .middle_info.main_item_wrapper .top_props {
