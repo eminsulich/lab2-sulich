@@ -30,3 +30,13 @@ h1 {
     padding-bottom: 5px;
 }
 
+
+.coll_s {
+    padding-left: 0px; 
+    float: left; 
+    clear: right;
+}
+
+.nv-main-menu-submenu__list{
+    overflow: hidden;
+}
